@@ -1,0 +1,9 @@
+.container { padding:28px; max-width:1200px; margin:0 auto; }
+.header { display:flex; align-items:center; justify-content:space-between; margin-bottom:18px; }
+.status { padding:8px 12px; border-radius:10px; font-size:14px; font-weight:600; }
+.connected { color: var(--color-surface); background: var(--color-success); box-shadow: 0 1px 2px rgba(5,150,105,0.12); }
+.disconnected { color: var(--color-surface); background: var(--color-error); box-shadow: 0 1px 2px rgba(220,38,38,0.12); }
+.main { display:grid; grid-template-columns:1fr 380px; gap:24px; }
+.orderBookWrapper { padding:14px; }
+.tradesWrapper { padding:14px; }
+.loading { padding:28px; color:var(--color-text-secondary); }
